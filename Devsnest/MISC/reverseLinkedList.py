@@ -6,10 +6,12 @@ class LinkedList:
 
 head = LinkedList("node1", LinkedList("node2", LinkedList("node3", None)))
 
+
 def reverse(head):
     if not head:
         return
     reverse(head.next)
     print(head.data)
+
 
 reverse(head)

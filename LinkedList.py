@@ -33,4 +33,3 @@ head = insert_head(head, "new head node")
 while head:
     print(head.data)
     head = head.next
-
